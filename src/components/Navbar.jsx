@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import { Context } from "../main";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const { isAuthenticated, setIsAuthenticated } = useContext(Context);
 
   const handleLogout = async () => {
