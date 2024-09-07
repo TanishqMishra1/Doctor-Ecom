@@ -11,7 +11,7 @@ const Home = () => {
         title={
           "Welcome to Amar Care Medical Institute | Your Trusted Healthcare Provider"
         }
-        imageUrl={"/doc3.png"}
+        imageUrl={"/hero.png"}
       />
       <Biography imageUrl={"/about.png"} />
       <Departments />
